@@ -1,3 +1,5 @@
+package Herencia;
+
 public class Perro extends Animal {
 
     public Perro(String nombre, String edad) {
@@ -7,5 +9,10 @@ public class Perro extends Animal {
     @Override
     public void hacerSonido() {
         System.out.println("Guau!");;
+    }
+
+    @Override
+    public void jugar() {
+        System.out.println("El perro juega con la pelota");
     }
 }
